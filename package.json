@@ -1,0 +1,15 @@
+{
+  "name": "peritec-mvp",
+  "private": true,
+  "version": "1.0.0",
+  "description": "PERITEC B2B Sales Support System - MVP",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "seed": "npm --prefix backend run seed",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend start",
+    "start:backend": "npm --prefix backend run start",
+    "smoke": "npm --prefix backend run smoke",
+    "build:frontend": "npm --prefix frontend run build"
+  }
+}

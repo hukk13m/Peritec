@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Programmable DC power supply">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E2A47"/>
+      <stop offset="1" stop-color="#163A5F"/>
+    </linearGradient>
+    <linearGradient id="rack" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E9EFF5"/>
+      <stop offset="1" stop-color="#A5B4C3"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="660" cy="80" r="180" fill="#0B63C5" opacity=".18"/>
+  <circle cx="100" cy="520" r="140" fill="#0B63C5" opacity=".12"/>
+  <ellipse cx="400" cy="470" rx="245" ry="27" fill="#04121F" opacity=".55"/>
+  <g>
+    <rect x="160" y="185" width="480" height="250" rx="12" fill="url(#rack)"/>
+    <rect x="160" y="185" width="480" height="38" rx="12" fill="#DCE6EF"/>
+    <rect x="160" y="207" width="480" height="16" fill="#DCE6EF"/>
+    <text x="186" y="211" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#0E2A47">AMETEK</text>
+    <text x="614" y="211" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#5B6B7C" text-anchor="end">ASTERION</text>
+
+    <rect x="186" y="246" width="196" height="70" rx="5" fill="#0B2B45" stroke="#052033" stroke-width="2"/>
+    <text x="200" y="284" font-family="Consolas, monospace" font-size="26" font-weight="700" fill="#7FD6FF">400.0</text>
+    <text x="364" y="272" text-anchor="end" font-family="Consolas, monospace" font-size="13" fill="#46E0B0">V</text>
+    <text x="200" y="304" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FB0C8">DC OUTPUT · 1 kW</text>
+
+    <rect x="398" y="246" width="216" height="70" rx="5" fill="#0B2B45" stroke="#052033" stroke-width="2"/>
+    <text x="412" y="284" font-family="Consolas, monospace" font-size="26" font-weight="700" fill="#7FD6FF">2.500</text>
+    <text x="596" y="272" text-anchor="end" font-family="Consolas, monospace" font-size="13" fill="#46E0B0">A</text>
+    <text x="412" y="304" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FB0C8">PROGRAMMABLE</text>
+
+    <g fill="#0E2A47">
+      <circle cx="210" cy="352" r="15"/><circle cx="258" cy="352" r="15"/><circle cx="306" cy="352" r="15"/>
+    </g>
+    <g fill="#8EA0B2">
+      <circle cx="210" cy="352" r="6"/><circle cx="258" cy="352" r="6"/><circle cx="306" cy="352" r="6"/>
+    </g>
+    <g fill="#0E2A47">
+      <circle cx="420" cy="352" r="9"/><circle cx="452" cy="352" r="9"/>
+    </g>
+    <g fill="#B23A3A">
+      <circle cx="540" cy="352" r="13"/>
+    </g>
+    <g fill="#1E1E1E">
+      <circle cx="586" cy="352" r="13"/>
+    </g>
+    <text x="540" y="390" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#5B6B7C">+</text>
+    <text x="586" y="390" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#5B6B7C">−</text>
+    <text x="256" y="410" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#5B6B7C">LAN · USB · RS232</text>
+
+    <g stroke="#5B6B7C" stroke-width="2" opacity=".55">
+      <path d="M186 424H614"/>
+    </g>
+  </g>
+  <text x="400" y="500" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" fill="#B8CBDE">Programmable DC Power Supply</text>
+</svg>

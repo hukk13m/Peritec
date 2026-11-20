@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-canvas text-ink font-sans antialiased;
+  }
+  h1, h2, h3, h4 {
+    color: inherit;
+  }
+  ::selection {
+    @apply bg-brand-soft text-brand-dark;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-content px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-4 py-2 text-sm font-semibold transition
+      focus:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2
+      disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply btn bg-brand text-white hover:bg-brand-dark;
+  }
+  .btn-secondary {
+    @apply btn border border-line bg-white text-ink hover:border-brand hover:text-brand;
+  }
+  .btn-ghost {
+    @apply btn text-muted hover:bg-navy-soft hover:text-ink;
+  }
+  .btn-danger {
+    @apply btn bg-danger-soft text-danger hover:bg-danger hover:text-white;
+  }
+  .btn-success {
+    @apply btn bg-success text-white hover:bg-green-700;
+  }
+  .btn-sm {
+    @apply px-3 py-1.5 text-xs;
+  }
+
+  .card {
+    @apply rounded-lg border border-line bg-white shadow-card;
+  }
+  .card-pad {
+    @apply card p-5 sm:p-6;
+  }
+
+  .label {
+    @apply mb-1.5 block text-xs font-semibold uppercase tracking-wide text-muted;
+  }
+  .input {
+    @apply w-full rounded-md border border-line bg-white px-3 py-2 text-sm text-ink placeholder:text-slate-400
+      focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand/20;
+  }
+  .input-error {
+    @apply border-danger focus:border-danger focus:ring-danger/20;
+  }
+  .field-error {
+    @apply mt-1 text-xs font-medium text-danger;
+  }
+
+  .badge {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-line bg-white px-3 py-1 text-xs font-medium text-ink;
+  }
+  .chip-active {
+    @apply border-brand bg-brand-soft text-brand-dark;
+  }
+
+  .table-base {
+    @apply w-full border-collapse text-left text-sm;
+  }
+  .table-base thead th {
+    @apply border-b border-line bg-canvas px-3 py-2.5 text-[11px] font-semibold uppercase tracking-wide text-muted;
+  }
+  .table-base tbody td {
+    @apply border-b border-line px-3 py-3 align-top text-ink;
+  }
+  .table-base tbody tr:hover {
+    @apply bg-slate-50/60;
+  }
+
+  .section-title {
+    @apply text-lg font-bold tracking-tight text-ink sm:text-xl;
+  }
+  .eyebrow {
+    @apply text-[11px] font-bold uppercase tracking-[0.14em] text-brand;
+  }
+  .link {
+    @apply font-medium text-brand hover:text-brand-dark hover:underline;
+  }
+  .divider {
+    @apply border-t border-line;
+  }
+  .stat-card {
+    @apply card p-4;
+  }
+  .nav-item {
+    @apply flex items-center gap-3 rounded-md px-3 py-2.5 text-sm font-medium text-slate-300 transition hover:bg-white/10 hover:text-white;
+  }
+  .nav-item-active {
+    @apply bg-white/10 text-white shadow-sm;
+  }
+  .skeleton {
+    @apply animate-pulse rounded bg-slate-200/70;
+  }
+  .toast {
+    @apply pointer-events-auto flex w-full max-w-sm items-start gap-3 rounded-lg border border-line bg-white p-4 shadow-float;
+  }
+}
+
+@layer utilities {
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .scrollbar-thin::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 9999px;
+  }
+}

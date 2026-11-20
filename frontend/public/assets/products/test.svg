@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Electronic test instrument">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E2A47"/>
+      <stop offset="1" stop-color="#163A5F"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E9EFF5"/>
+      <stop offset="1" stop-color="#A9B8C7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="110" cy="500" r="170" fill="#0B63C5" opacity=".14"/>
+  <g opacity=".22" stroke="#7FB2E8" stroke-width="1">
+    <path d="M0 460 L800 300 M0 520 L800 360"/>
+  </g>
+  <ellipse cx="400" cy="475" rx="255" ry="28" fill="#04121F" opacity=".55"/>
+  <g>
+    <rect x="145" y="200" width="510" height="235" rx="16" fill="url(#body)"/>
+    <rect x="145" y="200" width="510" height="42" rx="16" fill="#DCE6EF"/>
+    <rect x="145" y="224" width="510" height="18" fill="#DCE6EF"/>
+    <text x="176" y="228" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#0E2A47">DIGILENT</text>
+    <text x="620" y="228" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#5B6B7C" text-anchor="end">ANALOG DISCOVERY 3</text>
+
+    <rect x="172" y="264" width="300" height="140" rx="7" fill="#0B2B45" stroke="#052033" stroke-width="2"/>
+    <g stroke="#2A5B45" stroke-width="1" opacity=".55">
+      <path d="M172 300H472 M172 336H472 M172 372H472 M222 264V404 M272 264V404 M322 264V404 M372 264V404 M422 264V404"/>
+    </g>
+    <path d="M176 360 L196 352 L214 358 L232 340 L246 348 L260 316 L272 326 L284 296 L296 306 L308 288 L320 322 L334 334 L346 320 L358 344 L372 338 L388 356 L404 350 L420 366 L438 358 L466 370"
+          fill="none" stroke="#F2C94C" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M176 384 L466 384" stroke="#F2C94C" opacity=".3" stroke-width="1"/>
+
+    <circle cx="512" cy="296" r="28" fill="#0E2A47"/>
+    <circle cx="512" cy="296" r="19" fill="#233E5C"/>
+    <path d="M512 281V296L522 303" stroke="#7FD6FF" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <circle cx="580" cy="296" r="28" fill="#0E2A47"/>
+    <circle cx="580" cy="296" r="19" fill="#233E5C"/>
+    <path d="M571 296H589M580 287V305" stroke="#7FD6FF" stroke-width="3" stroke-linecap="round"/>
+
+    <g fill="#20507B">
+      <rect x="494" y="342" width="26" height="26" rx="3"/><rect x="528" y="342" width="26" height="26" rx="3"/>
+      <rect x="562" y="342" width="26" height="26" rx="3"/><rect x="596" y="342" width="26" height="26" rx="3"/>
+    </g>
+    <text x="560" y="388" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#5B6B7C">2 AI · 16 DIO</text>
+  </g>
+  <text x="400" y="505" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" fill="#B8CBDE">Multi-instrument Test Device</text>
+</svg>

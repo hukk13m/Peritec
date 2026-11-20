@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="HAROGIC spectrum analyzer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E2A47"/>
+      <stop offset="1" stop-color="#163A5F"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B2B45"/>
+      <stop offset="1" stop-color="#061C2E"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E7EDF4"/>
+      <stop offset="1" stop-color="#AEBCCB"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="700" cy="70" r="180" fill="#0B63C5" opacity=".18"/>
+  <circle cx="90" cy="540" r="150" fill="#0B63C5" opacity=".12"/>
+  <g opacity=".25" stroke="#7FB2E8" stroke-width="1">
+    <path d="M0 470 L800 300 M0 520 L800 350 M0 570 L800 400"/>
+  </g>
+  <ellipse cx="400" cy="475" rx="250" ry="30" fill="#04121F" opacity=".55"/>
+  <g>
+    <rect x="150" y="205" width="500" height="230" rx="18" fill="url(#metal)"/>
+    <rect x="150" y="205" width="500" height="46" rx="18" fill="#F4F8FC"/>
+    <rect x="150" y="233" width="500" height="18" fill="#F4F8FC"/>
+    <circle cx="184" cy="228" r="6" fill="#16A34A"/>
+    <text x="202" y="233" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#0E2A47">HAROGIC</text>
+    <text x="590" y="233" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#5B6B7C" text-anchor="end">SAN SERIES</text>
+    <rect x="178" y="272" width="304" height="132" rx="8" fill="url(#screen)" stroke="#052033" stroke-width="2"/>
+    <g stroke="#2A5B45" stroke-width="1" opacity=".5">
+      <path d="M178 305H482 M178 338H482 M178 371H482 M254 272V404 M330 272V404 M406 272V404"/>
+    </g>
+    <path d="M188 372 L214 366 L232 371 L248 352 L262 360 L278 328 L288 336 L298 302 L308 312 L320 292 L332 320 L344 330 L356 316 L368 342 L382 336 L398 356 L414 350 L430 366 L448 360 L472 372"
+          fill="none" stroke="#46E0B0" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M188 388 L472 388" stroke="#46E0B0" opacity=".35" stroke-width="1"/>
+    <circle cx="524" cy="300" r="26" fill="#0E2A47"/>
+    <circle cx="524" cy="300" r="18" fill="#233E5C"/>
+    <path d="M524 286V300L533 306" stroke="#7FD6FF" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <g fill="#0E2A47">
+      <circle cx="524" cy="352" r="6"/><circle cx="548" cy="352" r="6"/><circle cx="572" cy="352" r="6"/>
+    </g>
+    <text x="548" y="384" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#5B6B7C" text-anchor="middle">USB 3.0</text>
+    <g fill="#9AA9B8">
+      <circle cx="524" cy="270" r="4"/><circle cx="600" cy="270" r="4"/><circle cx="620" cy="270" r="4"/>
+    </g>
+  </g>
+  <text x="400" y="500" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" fill="#B8CBDE">RF Spectrum Analyzer</text>
+</svg>
